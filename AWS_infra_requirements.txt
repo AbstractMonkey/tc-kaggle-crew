@@ -1,0 +1,18 @@
+1. Tracking Server:
+   - EC2 instance (t2.micro for free tier)
+   - RDS PostgreSQL (db.t2.micro for free tier) or Amazon Aurora Serverless
+
+2. Artifact Store:
+   - S3 bucket
+
+3. Optional:
+   - Elastic Load Balancer (ALB) for HTTPS and high availability
+   - Route 53 for custom domain
+
+4. IAM roles and policies for secure access
+
+Estimated Monthly Cost:
+- EC2 (t2.micro): Free for 1 year, then ~$8-10/month
+- RDS (db.t2.micro): Free for 1 year, then ~$12-15/month
+- S3: ~$0.023 per GB/month + data transfer costs
+- Total: Potentially free for 1 year, then ~$20-30/month + storage and transfer costs
