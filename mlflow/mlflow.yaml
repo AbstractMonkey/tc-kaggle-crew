@@ -1,0 +1,3 @@
+artifact_location: gs://your-gcs-bucket/mlflow-artifacts
+experiment_name: mushroom-classification
+tracking_uri: https://your-mlflow-tracking-server.com
